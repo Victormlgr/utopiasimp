@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_bed"
+    },
+    "title": {
+      "translate": "advancements.irene_logo.title"
+    },
+    "description": {
+      "translate": "advancements.irene_logo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "irene_logo": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "utopia__a_simp_server:simp"
+}

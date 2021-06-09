@@ -1,0 +1,120 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "IreneCarrascoMOB",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irene_carrasco_mob"
+    },
+    {
+      "name": "IreneCarrascoMOBThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irene_carrasco_mob_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SimpcardRightClickedInAir",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "simpcard_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Simp",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "simp"
+    },
+    {
+      "name": "Simpcard",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "simpcard"
+    },
+    {
+      "name": "UtopiaSimpMod",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "utopia_simp_mod"
+    },
+    {
+      "name": "IreneLogo",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irene_logo"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.irene_logo.descr": "¡Corta, a la cama ya!",
+      "advancements.simp.descr": "Ya eres un SIMP!!!",
+      "advancements.simp.title": "SIMPEO OFICIAL",
+      "advancements.irene_logo.title": "Irene te mandó a la cama",
+      "entity.utopia__a_simp_server.irene_carrasco_mob": "Irene Carrasco",
+      "item.utopia__a_simp_server.simpcard": "Simp card",
+      "itemGroup.tabutopia_simp_mod": "Utopia Simp Mod",
+      "item.utopia__a_simp_server.irene_carrasco_mob_spawn_egg": "Irene Carrasco Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "utopia__a_simp_server",
+    "modName": "Utopia - A simp server",
+    "version": "1.0.0",
+    "author": "melga, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.utopiaasimpserver",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100223417
+}
